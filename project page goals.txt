@@ -1,0 +1,6 @@
+Will it have a navbar?
+
+where is the boilerplate?
+
+Scrollspy? I want something like google doc pages with their code examples and their scroll spy
+

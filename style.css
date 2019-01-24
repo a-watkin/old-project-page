@@ -1,0 +1,97 @@
+/* ensures the top of the page isn't hidden by the header*/
+body {
+  padding-top: 4em;
+}
+
+/* corrects the page position for links in the navbar */
+.internal-link {
+    display: block;
+    position: relative;
+    top: -6em;
+    visibility: hidden;
+}
+
+h3, h4, h5, h6 {
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    color: black;
+    font-size: 1.5em;
+/*    padding: 0.5em;*/
+}
+
+.description {
+/*    color: red;*/
+/*    width: 80%;*/
+/*    margin-left: 3%;*/
+/*    padding-top: 0.5em;*/
+    
+    padding-left: 0%;
+    padding-top: 1em;
+}
+
+
+/* images appearing left and right alternately */
+/*
+.img-fluid {
+    float: left;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.image-right {
+    float: right;
+    padding: 10px;
+    border-radius: 17px;
+}
+
+#image-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.screenshot {
+    border: solid black 2px;
+}
+*/
+
+#screenshot {
+/*     border-style: solid; */
+     color: #a7a8a3; 
+
+    max-width: 720px;
+    max-height: 360px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* border-style: solid; */
+
+}
+
+
+
+/*
+.disabled {
+   pointer-events: none;
+   cursor: default;
+}
+
+#show-border {
+  border: solid;
+}
+
+.full-background {
+  background:blue;
+  width: 100%;
+}
+*/
+
+footer {
+  margin: 2em;
+}
+
+#social-media {
+  margin: 2em;
+}
